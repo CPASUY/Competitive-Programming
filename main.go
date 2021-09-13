@@ -9,6 +9,7 @@ var clog []Competitor = []Competitor{}
 
 var competitors = []Competitor{
 {Firstname: "Juan Manuel", Lastname: "Reyes",Username: "Seyerman", Password: "1234", ConfirmPwd: "1234",Birthday: "01/05/1994"  },
+{Firstname: "Carolina", Lastname: "Pasuy",Username: "Cpasuy", Password: "1234", ConfirmPwd: "1234",Birthday: "06/05/2001"  },
 }
 func loadLogout(c *gin.Context) {
 	clog = []Competitor{};

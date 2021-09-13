@@ -11,7 +11,11 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-
+btn-primary {
+    color: #fff;
+    background-color: #3ca36c;
+    border-color: #3ca36c;
+}
 /* Set a style for all buttons */
 button {
     background-color: #4CAF50;
