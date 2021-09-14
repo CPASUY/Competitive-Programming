@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -56,9 +55,6 @@ func registerComp(c *gin.Context) {
 	password := c.PostForm("Password")
 	confirmpwd := c.PostForm("ConfirmPwd")
 	birthday := c.PostForm("Birthday")
-	fmt.Println("holaaaaaaaaaaaaaaa")
-	fmt.Println(username)
-	fmt.Println(birthday)
 	comp := []Competitor{
 		{Firstname: firstname,
 			Lastname:   lastname,
